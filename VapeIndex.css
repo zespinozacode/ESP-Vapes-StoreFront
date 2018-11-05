@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: rgb(199, 199, 199); 
+	margin: 0;
+	font-style: normal;
+	font-weight: 200;
+}
+/* WRAPPER */
+div.wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #2C9AB7;
+}
+/* Navigation */
+.header-warning {
+    width: 99.6%;
+    text-align: center;
+    background: #ffffff;
+    border: solid black 3px;
+    letter-spacing: 5px;
+}
+.header-warning h3 {
+    
+    padding: 10px 0 10px 0;
+    font-weight: bold;  
+}
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #062b35;
+	border-bottom: 1px solid #2C9AB7;
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 20%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 10px;
+	letter-spacing: 15px;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 0px;
+}
+nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.head_header {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+/* Head Section */
+.head {
+	background-color: #B3B3B3;
+	padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../VapeShopWebsite//vapeassets/vapeheader.jpg);
+    background-position: center;    
+}
+.head2 {
+	font-weight: bold;
+	color: #717070;
+}
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+/* About Section */
+.text_column {
+	width: 29%;
+	text-align: justify;
+	font-weight: lighter;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: rgb(255, 255, 255);
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: rgb(21, 100, 122);
+	margin-top: 0px;
+}
+/* Stats Gallery */
+.stats {
+	color: #cecece;
+    margin-bottom: 5px;
+    text-shadow:
+		-1px -1px 0 rgb(0, 0, 0),
+		1px -1px 0 rgb(0, 0, 0),
+		-1px 1px 0 rgb(0, 0, 0),
+		1px 1px 0 rgb(0, 0, 0);
+}
+.gallery {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: rgb(21, 100, 122);
+	min-width: 400px;
+	padding-bottom: 2px;
+	padding-top: 0px;
+	margin-top: -6px;
+	margin-bottom: -6px;
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+    margin-top: 35px;
+    background-image: url(../VapeShopWebsite/vapeassets/vapebrickwall.jpg);
+    background-position: center;
+}
+.thumbnail1 {
+	width: 25%;
+	text-align: center;
+	float: left;
+    margin-top: 35px;
+    background-image: url(..//VapeShopWebsite/vapeassets/vapekit.jpg);
+    background-position: center;   
+}
+.thumbnail2 {
+	width: 25%;
+	text-align: center;
+	float: left;
+    margin-top: 35px;
+    background-image: url(..//VapeShopWebsite/vapeassets/podvape.jpg);
+    background-position: center;
+}
+.thumbnail3 {
+	width: 25%;
+	text-align: center;
+	float: left;
+    margin-top: 35px;
+    background-image: url(../VapeShopWebsite/vapeassets/oilvape.jpg);
+    background-position: center;
+}
+.gallery .thumbnail h4 {
+	margin: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.gallery .thumbnail p {
+	margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.gallery .thumbnail1 h4 {
+	margin: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.gallery .thumbnail1 p {
+	margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.gallery .thumbnail2 h4 {
+	margin: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.gallery .thumbnail2 p {
+	margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.gallery .thumbnail3 h4 {
+	margin: 5px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.gallery .thumbnail3 p {
+	margin: 0px;
+    color: white;
+    font-weight: bold;
+}
+/* Parallax Section */
+.banner {
+	background-color: rgb(22, 115, 141);
+	background-image: url(../VapeShopWebsite/vapeassets/vape-girl-bronco.jpg);
+	height: 450px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.parallax {
+	color: white;
+	text-align: right;
+	padding-right: 100px;
+	padding-top: 130px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+.parallax_description {
+	color: white;
+	text-align: right;
+	padding-right: 100px;
+	width: 30%;
+	float: right;
+	font-weight: lighter;
+	line-height: 23px;
+	margin: 0px;
+    
+}
+/* More info */
+footer {
+	background-color: #FFFFFF;
+	padding-bottom: 80px;
+}
+.footer_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+footer .footer_column h3 {
+	color: rgb(43, 42, 42);
+	text-align: center;
+}
+footer .footer_column p {
+	color: #020202;
+	background-color: #FFFFFF;
+}
+.textsect {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+}
+footer .footer_column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid rgb(168, 37, 37);
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: rgb(163, 163, 163);
+	color: rgb(250, 250, 250);
+	cursor: progress;
+}
+.button2 {
+	width: 325px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button2:hover {
+	background-color: rgb(163, 163, 163);
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #062b35;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: #062b35;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+    margin-bottom: 0px;
+    margin-top: -5px;
+    background-image: url(../VapeShopWebsite/vapeassets/vapeshopfooter.jpg);
+    background-position: center bottom;
+}
+footer {
+	display: inline-block;
+}
+.hidden {
+	display: none;
+}
+
+
