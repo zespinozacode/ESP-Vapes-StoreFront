@@ -83,7 +83,7 @@ ul li:hover a {
 	background-color: #B3B3B3;
 	padding-top: 150px;
     padding-bottom: 150px;
-    background-image: url(../VapeShopWebsite//vapeassets/vapeheader.jpg);
+    background-image: url(vapeassets/vapeheader.jpg);
     background-position: center;    
 }
 .head2 {
@@ -143,7 +143,7 @@ ul li:hover a {
 	text-align: center;
 	float: left;
     margin-top: 35px;
-    background-image: url(../VapeShopWebsite/vapeassets/vapebrickwall.jpg);
+    background-image: url(vapeassets/vapebrickwall.jpg);
     background-position: center;
 }
 .thumbnail1 {
@@ -151,7 +151,7 @@ ul li:hover a {
 	text-align: center;
 	float: left;
     margin-top: 35px;
-    background-image: url(..//VapeShopWebsite/vapeassets/vapekit.jpg);
+    background-image: url(vapeassets/vapekit.jpg);
     background-position: center;   
 }
 .thumbnail2 {
@@ -159,7 +159,7 @@ ul li:hover a {
 	text-align: center;
 	float: left;
     margin-top: 35px;
-    background-image: url(..//VapeShopWebsite/vapeassets/podvape.jpg);
+    background-image: url(vapeassets/podvape.jpg);
     background-position: center;
 }
 .thumbnail3 {
@@ -167,7 +167,7 @@ ul li:hover a {
 	text-align: center;
 	float: left;
     margin-top: 35px;
-    background-image: url(../VapeShopWebsite/vapeassets/oilvape.jpg);
+    background-image: url(vapeassets/oilvape.jpg);
     background-position: center;
 }
 .gallery .thumbnail h4 {
@@ -213,7 +213,7 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: rgb(22, 115, 141);
-	background-image: url(../VapeShopWebsite/vapeassets/vape-girl-bronco.jpg);
+	background-image: url(vapeassets/vape-girl-bronco.jpg);
 	height: 450px;
 	background-attachment: fixed;
 	background-size: cover;
@@ -339,7 +339,7 @@ footer .footer_column p {
 	padding-bottom: 60PX;
     margin-bottom: 0px;
     margin-top: -5px;
-    background-image: url(../VapeShopWebsite/vapeassets/vapeshopfooter.jpg);
+    background-image: url(vapeassets/vapeshopfooter.jpg);
     background-position: center bottom;
 }
 footer {
